@@ -1,0 +1,32 @@
+# .NET build artifacts
+bin/
+obj/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+
+# VS Code settings
+.vscode/
+
+# ASP.NET secrets (optional, for safety)
+secrets.json
+appsettings.Development.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Rider/JetBrains (just in case)
+.idea/
+
+# npm packages (if you use frontend tools)
+node_modules/
+
+# Temporary files
+*.swp
+*.tmp
