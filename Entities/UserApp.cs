@@ -4,7 +4,7 @@ using System;
 
 namespace API.Entities;
 
-public class UserApp
+public class AppUser
 {
     public string? Id { get; set; } = Guid.NewGuid().ToString();
     // required keyword ==> t's used to enforce initialization of properties and fields within a class, record, or struct.  
